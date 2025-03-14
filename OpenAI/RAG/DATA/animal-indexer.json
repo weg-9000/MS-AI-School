@@ -1,0 +1,101 @@
+{
+  "name": "animal-indexer",
+  "description": null,
+  "dataSourceName": "animal",
+  "skillsetName": null,
+  "targetIndexName": "animal-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "delimitedTextDelimiter": ","
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "Animal",
+      "targetFieldName": "Animal",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Color",
+      "targetFieldName": "Color",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Height (cm)",
+      "targetFieldName": "Height_cm",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Weight (kg)",
+      "targetFieldName": "Weight_kg",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Lifespan (years)",
+      "targetFieldName": "Lifespan_years",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Diet",
+      "targetFieldName": "Diet",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Habitat",
+      "targetFieldName": "Habitat",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Predators",
+      "targetFieldName": "Predators",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Average Speed (km/h)",
+      "targetFieldName": "Average_Speed_kmh",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Countries Found",
+      "targetFieldName": "Countries_Found",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Conservation Status",
+      "targetFieldName": "Conservation_Status",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Family",
+      "targetFieldName": "Family",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Gestation Period (days)",
+      "targetFieldName": "Gestation_Period_days",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Social Structure",
+      "targetFieldName": "Social_Structure",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "Offspring per Birth",
+      "targetFieldName": "Offspring_per_Birth",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}
